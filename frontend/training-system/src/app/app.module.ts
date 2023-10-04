@@ -14,10 +14,14 @@ import {MatInputModule} from '@angular/material/input'
 import {MatFormFieldModule} from '@angular/material/form-field'
 import {MatButtonModule} from '@angular/material/button'
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+// import { CreateUserComponent } from './create-user/create-user.component';
+import { SignupComponent } from './signup/signup.component';
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    // CreateUserComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
